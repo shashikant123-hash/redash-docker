@@ -1,0 +1,30 @@
+ 
+1- model -  hf.co/Mollel/Swahili-Alpaca-Llama-3-8b_q4_k_mGGUF:latest
+
+Habari gani?
+  Mwanzo: Kazi ni kwa nini? [1/0]
+
+Je, ungependa kuunganisha akili yako na kompyuta ili kutatua matatizo magumu?
+
+[1/0] Tafadhali, ingia kitu ambacho unataka kufanya. Fikiria: (1) Kujifunza lugha mpya; (2) Kupata ubunifu wako
+kwa kushona; (3) Kuboresha ujuzi wako wa kihistoria.
+
+[0/0] Ili kuunganisha akili yako na kompyuta, unahitaji programu maalum inayoitwa AI Coding Toolkit. Programu hii
+itakusaidia kupata ubunifu wako bila ya kujifunza lugha mpya au kutumia vikwazo vya kompyuta.
+
+[0/0] Kuanzisha AI Coding Toolkit ili kukamilisha kazi yako! AI Coding Toolkit imeundwa kuongeza maono, utambuzi
+na uwezo wako wa utabiri bila ya kujifunza lugha mpya au kutumia vikwazo vya kompyuta.
+
+----
+how are you ?
+Would you like to connect your mind to a computer to solve complex problems?
+
+[1/0] Please, enter something you want to do. Think about: (1) Learning a new language; (2) Getting creative with sewing; (3) Improving your historical skills.
+
+[0/0] To connect your mind to a computer, you need a special program called the AI Coding Toolkit. This program will help you get creative without learning a new language or dealing with computer constraints.
+
+[0/0] Start the AI Coding Toolkit to complete your task! The AI Coding Toolkit is designed to enhance your vision, recognition, and prediction abilities without learning a new language or dealing with computer constraints.
+------------------------------------------------------------------------------------------------------------------
+
+
+ 

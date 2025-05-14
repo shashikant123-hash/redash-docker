@@ -1,0 +1,41 @@
+SELECT "Id", "ApplicationNumber", "TccNumber", "ClientId", "LicenseModuleId", "LicenseTypeId", "SystemStatusId", "PermitNumber", "OfferGeneratedDate", "OfferAcceptedDate", "LicenseIssueDate", "PermitQRCode", "IsLicenseFeePaymentDone", "IsApplicationFeePaymentDone", "Route", "State", "StateName", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified", "OfferQRCode"
+	FROM public."LicenseMain";
+
+SELECT "Id", "ApplicationNumber", "ManagementTypeId", "LicenseMainId", "AmendmentTypeId", "NetworkDetails", "IsLicenseFeePaymentDone", "IsApplicationFeePaymentDone", "TerminationType", "TerminationReason", "ExecutiveSummary", "TechnicalInformation", "MarketInformation", "BillingInformation", "FinancialInformation", "QualityOfService", "ClientId", "TransfereeClientId", "SystemStatusId", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified", "State", "StateName", "IsTransfereeApproved"
+	FROM public."LicenseManagement";
+
+SELECT "Id", "LicenseManagementId", "LicenseServiceId", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."LicenseManagementTerminationService";
+
+SELECT "Id", "LicenseModuleName", "Description", "LicenseModuleKey", "ShowInUI", "DateCreated", "Abbreviation"
+	FROM public."LicenseModule";
+
+SELECT "Id", "LicenseMainId", "LicenseTypeServiceId", "ServiceName", "OtherDetails", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified", "SystemStatusId"
+	FROM public."LicenseService";
+
+SELECT "Id", "LicenseTypeName", "Description", "LicenseTypeKey", "LicenceDuration", "ApplicationFee", "InitialLicenseFee", "AnnualOperatingFee", "Abbreviation", "WorkflowCategory", "LicenseModuleId", "ChartOfAccountId", "DepartmentId", "SystemStatusId", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."LicenseType";
+
+SELECT "Id", "FirstName", "MiddleName", "LastName", "Email", "EmailConfirmed", "PasswordHash", "SecurityStamp", "PhoneNumber", "PhoneNumberConfirmed", "TwoFactorEnabled", "LockOutEndDateUtc", "LockOutEnabled", "UserName", "UserType", "StatusId", "HelpDeskAccessKey", "PhoneNumberCountryCode", "LastLoginDate", "IsTermsOfUseAccepted", "IprsPinType", "IprsPinNo", "DateOfBirth", "Nationality", "LockOutEndTime", "CmsUserId"
+	FROM public."LmsUser";
+
+SELECT "Id", "ClientTypeId", "DocumentTypeId", "UserId", "DocumentNumber", "PinNumber", "Website", "Email", "ClientName", "PostalAddress", "City", "PostalCodeId", "CountyName", "IsInternal", "PropertyTransferId", "TelephoneNo1", "TelephoneNo2", "CountyId", "SubCountyId", "WardId", "TownId", "Street", "Building", "FloorNumber", "Department", "SubDepartment", "HeadTitle", "HeadFirstName", "HeadOtherName", "HeadPosition", "HeadTelephone", "HeadEmail", "ContactPersonTitle", "ContactPersonFirstName", "ContactPersonOtherName", "ContactPersonPosition", "ContactPersonTelephone", "ContactPersonEmail", "ContactPersonRoom", "FirstName", "LastName", "MiddleName", "SystemStatusId", "TelephoneNo1CountryCode", "IsImported", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified", "State", "StateName", "IsClientConfirmed"
+	FROM public."Client";
+
+SELECT "Id", "ClientTypeId", "LicenseTypeId", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."ClientTypeLicenseType";
+
+SELECT "Id", "TechnicalPersonnelCertificateNumber", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."TelecommunicationLicense";
+
+SELECT "Id", "ExecutiveSummary", "TechnicalInformation", "ProposedServiceAndTariff", "MarketInformation", "BillingInformation", "FinancialInformation", "QualityOfServiceAssurance", "SubmarineCableName", "LandingPointA", "LandingPointB", "SystemConfiguration", "InitialSystemCapacity", "MaximumCapacity", "MarketNetworkDetails", "ParticularsOfPremise", "DetailedOwnership", "ServiceAndStandardsDesc", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."InfrastructureLicense";
+
+SELECT "Id", "ExecutiveSummary", "TechnicalInformation", "ProposedServiceAndTariff", "MarketInformation", "BillingInformation", "FinancialInformation", "QualityOfServiceAssurance", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."DotKeLicense";
+
+SELECT "Id", "ExecutiveSummary", "TechnicalInformation", "ProposedServiceAndTariff", "MarketInformation", "BillingInformation", "FinancialInformation", "QualityOfServiceAssurance", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."BpoLicense";
+
+SELECT "Id", "CreatedBy", "DateCreated", "LastModifiedBy", "DateLastModified"
+	FROM public."TechnicalPersonnelLicense";

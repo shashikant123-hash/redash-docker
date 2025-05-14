@@ -1,0 +1,3 @@
+LmsUser (Parent Table with Id as Primary Key)
+
+Id, FirstName, MiddleName, LastName, Email, EmailConfirmed, PasswordHash, SecurityStamp, PhoneNumber, PhoneNumberConfirmed, TwoFactorEnabled, LockOutEndDateUtc, LockOutEnabled, UserName, UserType, StatusId, HelpDeskAccessKey, PhoneNumberCountryCode, LastLoginDate, IsTermsOfUseAccepted, IprsPinType, IprsPinNo, DateOfBirth, Nationality, LockOutEndTime, CmsUserId
